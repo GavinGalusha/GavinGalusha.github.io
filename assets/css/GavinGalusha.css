@@ -11691,3 +11691,15 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+.iframe-container iframe {
+  width: 80%; /* Adjust the width as needed */
+  height: 600px; /* Adjust the height as needed */
+  border: none;
+}
